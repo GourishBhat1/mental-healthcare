@@ -29,33 +29,71 @@
                             <div class="brand-logo">
                                 <img src="images/logo.svg" alt="logo">
                             </div>
-                            <h4 class="text-center">Sign Up</h4>
-                            <!-- <h4>New here?</h4> -->
+                            <h4 class="text-center">Additional Profile Info</h4>
                             <!-- <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6> -->
                             <form class="pt-3">
-                                <div class="mb-4">
+                                <!-- <div class="mb-4">
                                     <div class="form-check">
                                         <label class="form-check-label text-muted">
                                             <input type="checkbox" class="form-check-input">
                                             I am above 18 years
                                         </label>
                                     </div>
+                                </div> -->
+                                <div class="form-group">
+                                    <label class="form-check-label text-muted">
+                                        Service Provider Type:
+                                    </label>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="" checked>
+                                            Psychologist
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                            Psychiatrist
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                            Yoga Therapist
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                            Wellness Coach
+                                        </label>
+                                    </div>
                                 </div>
-                                <div class="mb-4">
+                                <!-- <div class="mb-4">
                                     <div class="form-check">
                                         <label class="form-check-label text-muted">
                                             <input type="checkbox" class="form-check-input">
                                             I accept the terms & conditions
                                         </label>
                                     </div>
+                                </div> -->
+                                <div class="form-group">
+                                    <input type="number" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Professional Registration Number">
                                 </div>
                                 <div class="form-group">
-                                    <input type="number" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Aadhar Number">
+                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Professional Qualification 1">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Name">
+                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Professional Qualification 2">
                                 </div>
                                 <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Designation">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Role in the Organisation">
+                                </div>
+
+                                <!-- <div class="form-group">
                                     <label class="form-check-label text-muted">
                                         Date Of Birth
                                     </label>
@@ -89,7 +127,8 @@
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Country">
-                                </div>
+                                </div> -->
+
                                 <!-- <div class="form-group">
                                     <select class="form-control form-control-lg" id="exampleFormControlSelect2">
                                         <option>Country</option>
@@ -100,22 +139,22 @@
                                         <option>Argentina</option>
                                     </select>
                                 </div> -->
-                                <div class="form-group">
+                                <!-- <div class="form-group">
                                     <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Create Password">
                                 </div>
                                 <div class="form-group">
                                     <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Confirm Password">
-                                </div>
+                                </div> -->
                                 <div class="mb-4">
                                     <div class="form-check">
                                         <label class="form-check-label text-muted">
                                             <input type="checkbox" class="form-check-input">
-                                            Check this if you are a Service Provider
+                                            Check this If you will be needing bulk assessment
                                         </label>
                                     </div>
                                 </div>
                                 <div class="mt-3">
-                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="additional-profile-info.php">SIGN UP</a>
+                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="basic-health-info.php">SUBMIT</a>
                                 </div>
                                 <div class="text-center mt-4 font-weight-light">
                                     Already have an account? <a href="index.php" class="text-primary">Sign In</a>
