@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Skydash Admin</title>
+    <title>Home | Skydash Admin</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/feather/feather.css">
     <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
@@ -281,7 +281,7 @@
                     </div>
 
 
-                    <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+                    <div class="col-12 mb-4 mb-xl-0">
                         <h3 class="font-weight-bold text-center">My Selected Services</h3>
 
                     </div>
@@ -306,10 +306,10 @@
                                 </div>
                             </div>
                         </div> -->
-                        <div class="col-md-6 grid-margin transparent">
+                        <div class="col-12 grid-margin transparent">
                             <div class="row">
                                 <div class="col-md-6 mb-4 stretch-card transparent">
-                                    <a class="card card-tale" href="index.php">
+                                    <a href="buy-service.php" class="card card-tale">
                                         <div class="card-body">
                                             <p class="mb-4">Service Provider: Dr. Strange</p>
                                             <p class="fs-30 mb-2">Healthcare Tips</p>
@@ -318,33 +318,33 @@
                                     </a>
                                 </div>
                                 <div class="col-md-6 mb-4 stretch-card transparent">
-                                    <div class="card card-dark-blue">
+                                    <a href="buy-service.php" class="card card-dark-blue">
                                         <div class="card-body">
                                             <p class="mb-4">Service Provider: Dr. Strange</p>
                                             <p class="fs-30 mb-2">Meditation Tips</p>
                                             <p class="h4 font-weight-bold">Price: Rs 500</p>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
-                                    <div class="card card-light-blue">
+                                    <a href="buy-service.php" class="card card-light-blue">
                                         <div class="card-body">
                                             <p class="mb-4">Service Provider: Dr. Strange</p>
                                             <p class="fs-30 mb-2">Home Remedies</p>
                                             <p class="h4 font-weight-bold">Price: Rs 500</p>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                                 <div class="col-md-6 stretch-card transparent">
-                                    <div class="card card-light-danger">
+                                    <a href="buy-service.php" class="card card-light-danger">
                                         <div class="card-body">
                                             <p class="mb-4">Service Provider: Dr. Strange</p>
                                             <p class="fs-30 mb-2">Healthcare 101</p>
                                             <p class="h4 font-weight-bold">Price: Rs 500</p>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                             <!-- <div class="row">
