@@ -226,7 +226,7 @@
                         <div class="col-md-12 grid-margin">
                             <div class="row justify-content-center d-flex">
                                 <div class="col-12 mb-4 mb-xl-0">
-                                    <h3 class="font-weight-bold text-center">Self Development</h3>
+                                    <h3 class="font-weight-bold text-center">Book Appointments</h3>
                                     <!-- <h6 class="font-weight-normal mb-0">All systems are running smoothly! You have <span class="text-primary">3 unread alerts!</span></h6> -->
                                 </div>
 
@@ -234,7 +234,7 @@
                                     <div class="card-body">
                                         <div class="form-group mb-0">
                                             <div class=" input-group">
-                                                <input type="search" class="form-control" placeholder="Search for a service" aria-label="Search for a service" style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;">
+                                                <input type="search" class="form-control" placeholder="Search service providers" aria-label="Search service providers" style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;">
                                                 <div class="input-group-append">
                                                     <button class="btn btn-sm btn-primary" type="button">Search</button>
                                                 </div>
@@ -243,46 +243,14 @@
                                     </div>
                                 </div>
 
-                                <div class="col-12 col-xl-12">
-                                    <div class="">
 
-                                        <div class="col-sm-12 col-xs-12">
-                                            <div class="d-flex justify-content-center align-items-center">
-                                                <div class="text-center">
-                                                    <label class="d-flex justify-content-center align-items-center">Price: &nbsp;</label>
-                                                </div>
-
-                                                <div class="">
-                                                    <select class="rounded-pill">
-                                                        <option>&nbsp;&nbsp;Free&nbsp;&nbsp;</option>
-                                                        <option>&nbsp;&nbsp;Paid&nbsp;&nbsp;</option>
-                                                        <!-- <option>Category3</option>
-                                                        <option>Category4</option> -->
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- <div class="dropdown flex-md-grow-1 flex-xl-grow-0">Price:
-                                            <button class="btn btn-sm btn-light bg-white dropdown-toggle" type="button" id="dropdownMenuDate2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                                <i class="mdi mdi-calendar"></i> Free
-                                            </button>
-                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuDate2">
-                                                <a class="dropdown-item" href="#">Paid</a>
-                                                <a class="dropdown-item" href="#">March - June</a>
-                                                <a class="dropdown-item" href="#">June - August</a>
-                                                <a class="dropdown-item" href="#">August - November</a>
-                                            </div>
-                                        </div> -->
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
 
 
                     <div class="col-12 mb-4 mb-xl-0">
-                        <h3 class="font-weight-bold text-center">My Selected Services</h3>
+                        <h3 class="font-weight-bold text-center">Selected Service Providers</h3>
 
                     </div>
 
@@ -309,40 +277,40 @@
                         <div class="col-12 grid-margin transparent">
                             <div class="row">
                                 <div class="col-md-6 mb-4 stretch-card transparent">
-                                    <a href="buy-service.php" class="card card-tale">
+                                    <a href="book-appointment.php" class="card card-tale">
                                         <div class="card-body">
-                                            <p class="mb-4">Service Provider: Dr. Strange</p>
-                                            <p class="fs-30 mb-2">Healthcare Tips</p>
-                                            <p class="h4 font-weight-bold">Price: Rs 500</p>
+                                            <!-- <p class="mb-4">Service Provider: Dr. Strange</p> -->
+                                            <p class="fs-30 mb-2">Dr. John</p>
+                                            <!-- <p class="h4 font-weight-bold">Price: Rs 500</p> -->
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-md-6 mb-4 stretch-card transparent">
-                                    <a href="buy-service.php" class="card card-dark-blue">
+                                    <a href="book-appointment.php" class="card card-dark-blue">
                                         <div class="card-body">
-                                            <p class="mb-4">Service Provider: Dr. Strange</p>
-                                            <p class="fs-30 mb-2">Meditation Tips</p>
-                                            <p class="h4 font-weight-bold">Price: Rs 500</p>
+                                            <!-- <p class="mb-4">Service Provider: Dr. Strange</p> -->
+                                            <p class="fs-30 mb-2">Dr. Strange</p>
+                                            <!-- <p class="h4 font-weight-bold">Price: Rs 500</p> -->
                                         </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
-                                    <a href="buy-service.php" class="card card-light-blue">
+                                    <a href="book-appointment.php" class="card card-light-blue">
                                         <div class="card-body">
-                                            <p class="mb-4">Service Provider: Dr. Strange</p>
-                                            <p class="fs-30 mb-2">Home Remedies</p>
-                                            <p class="h4 font-weight-bold">Price: Rs 500</p>
+                                            <!-- <p class="mb-4">Service Provider: Dr. Strange</p> -->
+                                            <p class="fs-30 mb-2">Dr. Stone</p>
+                                            <!-- <p class="h4 font-weight-bold">Price: Rs 500</p> -->
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-md-6 stretch-card transparent">
-                                    <a href="buy-service.php" class="card card-light-danger">
+                                    <a href="book-appointment.php" class="card card-light-danger">
                                         <div class="card-body">
-                                            <p class="mb-4">Service Provider: Dr. Strange</p>
-                                            <p class="fs-30 mb-2">Healthcare 101</p>
-                                            <p class="h4 font-weight-bold">Price: Rs 500</p>
+                                            <!-- <p class="mb-4">Service Provider: Dr. Strange</p> -->
+                                            <p class="fs-30 mb-2">Dr. Jane</p>
+                                            <!-- <p class="h4 font-weight-bold">Price: Rs 500</p> -->
                                         </div>
                                     </a>
                                 </div>

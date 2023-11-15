@@ -226,63 +226,101 @@
                         <div class="col-md-12 grid-margin">
                             <div class="row justify-content-center d-flex">
                                 <div class="col-12 mb-4 mb-xl-0">
-                                    <h3 class="font-weight-bold text-center">Self Development</h3>
+                                    <h3 class="font-weight-bold text-center">My Page</h3>
                                     <!-- <h6 class="font-weight-normal mb-0">All systems are running smoothly! You have <span class="text-primary">3 unread alerts!</span></h6> -->
                                 </div>
 
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="form-group mb-0">
-                                            <div class=" input-group">
-                                                <input type="search" class="form-control" placeholder="Search for a service" aria-label="Search for a service" style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;">
-                                                <div class="input-group-append">
-                                                    <button class="btn btn-sm btn-primary" type="button">Search</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="col-12 col-xl-12">
-                                    <div class="">
 
-                                        <div class="col-sm-12 col-xs-12">
-                                            <div class="d-flex justify-content-center align-items-center">
-                                                <div class="text-center">
-                                                    <label class="d-flex justify-content-center align-items-center">Price: &nbsp;</label>
-                                                </div>
-
-                                                <div class="">
-                                                    <select class="rounded-pill">
-                                                        <option>&nbsp;&nbsp;Free&nbsp;&nbsp;</option>
-                                                        <option>&nbsp;&nbsp;Paid&nbsp;&nbsp;</option>
-                                                        <!-- <option>Category3</option>
-                                                        <option>Category4</option> -->
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- <div class="dropdown flex-md-grow-1 flex-xl-grow-0">Price:
-                                            <button class="btn btn-sm btn-light bg-white dropdown-toggle" type="button" id="dropdownMenuDate2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                                <i class="mdi mdi-calendar"></i> Free
-                                            </button>
-                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuDate2">
-                                                <a class="dropdown-item" href="#">Paid</a>
-                                                <a class="dropdown-item" href="#">March - June</a>
-                                                <a class="dropdown-item" href="#">June - August</a>
-                                                <a class="dropdown-item" href="#">August - November</a>
-                                            </div>
-                                        </div> -->
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
 
 
+
                     <div class="col-12 mb-4 mb-xl-0">
-                        <h3 class="font-weight-bold text-center">My Selected Services</h3>
+                        <h3 class="font-weight-bold text-center">My Assessment</h3>
+
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-people pt-0">
+                                    <div class="col-12 grid-margin stretch-card">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Sessions Attended by Day</h4>
+                                                <canvas id="myChart"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3"></div>
+                    </div>
+
+
+
+
+
+
+                    <div class="row">
+
+                        <div class="col-lg-3"></div>
+                        <div class="col-12 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="card-title text-center">Sessions Missed</p>
+                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Healthcare Tips: </strong> Session 5</a></p>
+                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Healthcare Tips: </strong> Session 6</a></p>
+                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Meditation Tips: </strong> Session 3</a></p>
+                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Meditation Tips: </strong> Session 7</a></p>
+                                    <br>
+                                    <!-- <p class="font-weight-700 text-center">Price: <strong>Rs. 500</strong></p>
+                                    <br>
+                                    <div class="text-center">
+                                        <a href="view-video-lesson.php" type="button" class="btn btn-primary">Buy This Service</a>
+                                    </div> -->
+                                    <!-- <div class="d-flex flex-wrap mb-5">
+                                        <div class="mr-5 mt-3">
+                                            <p class="text-muted">Order value</p>
+                                            <h3 class="text-primary fs-30 font-weight-medium">12.3k</h3>
+                                        </div>
+                                        <div class="mr-5 mt-3">
+                                            <p class="text-muted">Orders</p>
+                                            <h3 class="text-primary fs-30 font-weight-medium">14k</h3>
+                                        </div>
+                                        <div class="mr-5 mt-3">
+                                            <p class="text-muted">Users</p>
+                                            <h3 class="text-primary fs-30 font-weight-medium">71.56%</h3>
+                                        </div>
+                                        <div class="mt-3">
+                                            <p class="text-muted">Downloads</p>
+                                            <h3 class="text-primary fs-30 font-weight-medium">34040</h3>
+                                        </div>
+                                    </div> -->
+                                    <!-- <canvas id="order-chart"></canvas> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3"></div>
+
+
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="col-12 mb-4 mb-xl-0">
+                        <h3 class="font-weight-bold text-center">My Buys</h3>
 
                     </div>
 
@@ -309,40 +347,40 @@
                         <div class="col-12 grid-margin transparent">
                             <div class="row">
                                 <div class="col-md-6 mb-4 stretch-card transparent">
-                                    <a href="buy-service.php" class="card card-tale">
+                                    <a href="view-video-lesson.php" class="card card-tale">
                                         <div class="card-body">
                                             <p class="mb-4">Service Provider: Dr. Strange</p>
                                             <p class="fs-30 mb-2">Healthcare Tips</p>
-                                            <p class="h4 font-weight-bold">Price: Rs 500</p>
+                                            <!-- <p class="h4 font-weight-bold">Price: Rs 500</p> -->
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-md-6 mb-4 stretch-card transparent">
-                                    <a href="buy-service.php" class="card card-dark-blue">
+                                    <a href="view-video-lesson.php" class="card card-dark-blue">
                                         <div class="card-body">
                                             <p class="mb-4">Service Provider: Dr. Strange</p>
                                             <p class="fs-30 mb-2">Meditation Tips</p>
-                                            <p class="h4 font-weight-bold">Price: Rs 500</p>
+                                            <!-- <p class="h4 font-weight-bold">Price: Rs 500</p> -->
                                         </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
-                                    <a href="buy-service.php" class="card card-light-blue">
+                                    <a href="view-video-lesson.php" class="card card-light-blue">
                                         <div class="card-body">
                                             <p class="mb-4">Service Provider: Dr. Strange</p>
                                             <p class="fs-30 mb-2">Home Remedies</p>
-                                            <p class="h4 font-weight-bold">Price: Rs 500</p>
+                                            <!-- <p class="h4 font-weight-bold">Price: Rs 500</p> -->
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-md-6 stretch-card transparent">
-                                    <a href="buy-service.php" class="card card-light-danger">
+                                    <a href="view-video-lesson.php" class="card card-light-danger">
                                         <div class="card-body">
                                             <p class="mb-4">Service Provider: Dr. Strange</p>
                                             <p class="fs-30 mb-2">Healthcare 101</p>
-                                            <p class="h4 font-weight-bold">Price: Rs 500</p>
+                                            <!-- <p class="h4 font-weight-bold">Price: Rs 500</p> -->
                                         </div>
                                     </a>
                                 </div>
@@ -389,6 +427,128 @@
                             </div> -->
                         </div>
                     </div>
+
+
+
+                    <br>
+
+
+
+
+                    <div class="col-12 mb-4 mb-xl-0">
+                        <h3 class="font-weight-bold text-center">My Appointments</h3>
+
+                    </div>
+
+
+                    <div class="row">
+                        <!-- <div class="col-md-6 grid-margin stretch-card">
+                            <div class="card tale-bg">
+                                <div class="card-people mt-auto">
+                                    <img src="images/dashboard/people.svg" alt="people">
+                                    <div class="weather-info">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2>
+                                            </div>
+                                            <div class="ml-2">
+                                                <h4 class="location font-weight-normal">Bangalore</h4>
+                                                <h6 class="font-weight-normal">India</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="col-12 grid-margin transparent">
+                            <div class="row">
+                                <div class="col-md-6 mb-4 stretch-card transparent">
+                                    <a href="join-meeting.php" class="card card-tale">
+                                        <div class="card-body">
+                                            <!-- <p class="mb-4">Service Provider: Dr. Strange</p> -->
+                                            <p class="fs-30 mb-2">Dr. John</p>
+                                            <!-- <p class="h4 font-weight-bold">Price: Rs 500</p> -->
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 mb-4 stretch-card transparent">
+                                    <a href="join-meeting.php" class="card card-dark-blue">
+                                        <div class="card-body">
+                                            <!-- <p class="mb-4">Service Provider: Dr. Strange</p> -->
+                                            <p class="fs-30 mb-2">Dr. Strange</p>
+                                            <!-- <p class="h4 font-weight-bold">Price: Rs 500</p> -->
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
+                                    <a href="join-meeting.php" class="card card-light-blue">
+                                        <div class="card-body">
+                                            <!-- <p class="mb-4">Service Provider: Dr. Strange</p> -->
+                                            <p class="fs-30 mb-2">Dr. Stone</p>
+                                            <!-- <p class="h4 font-weight-bold">Price: Rs 500</p> -->
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 stretch-card transparent">
+                                    <a href="join-meeting.php" class="card card-light-danger">
+                                        <div class="card-body">
+                                            <!-- <p class="mb-4">Service Provider: Dr. Strange</p> -->
+                                            <p class="fs-30 mb-2">Dr. Jane</p>
+                                            <!-- <p class="h4 font-weight-bold">Price: Rs 500</p> -->
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- <div class="row">
+                                <div class="col-md-6 mb-4 stretch-card transparent">
+                                    <div class="card card-tale">
+                                        <div class="card-body">
+                                            <p class="mb-4">Today’s Bookings</p>
+                                            <p class="fs-30 mb-2">4006</p>
+                                            <p>10.00% (30 days)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 stretch-card transparent">
+                                    <div class="card card-dark-blue">
+                                        <div class="card-body">
+                                            <p class="mb-4">Total Bookings</p>
+                                            <p class="fs-30 mb-2">61344</p>
+                                            <p>22.00% (30 days)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
+                                    <div class="card card-light-blue">
+                                        <div class="card-body">
+                                            <p class="mb-4">Number of Meetings</p>
+                                            <p class="fs-30 mb-2">34040</p>
+                                            <p>2.00% (30 days)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 stretch-card transparent">
+                                    <div class="card card-light-danger">
+                                        <div class="card-body">
+                                            <p class="mb-4">Number of Clients</p>
+                                            <p class="fs-30 mb-2">47033</p>
+                                            <p>0.22% (30 days)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+
+
+
+
+
 
                     <!-- <div class="row">
                         <div class="col-md-6 grid-margin stretch-card">
@@ -1041,6 +1201,39 @@
     <script src="js/dashboard.js"></script>
     <script src="js/Chart.roundedBarCharts.js"></script>
     <!-- End custom js for this page-->
+
+
+
+    <!-- Adding Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                datasets: [{
+                    label: 'Sessions Attended',
+                    data: [12, 19, 3, 5, 0, 2, 7],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: 'Sessions Attended by Day'
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+
 </body>
 
 </html>
