@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Skydash Admin</title>
+    <title>'Person' Registration</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/feather/feather.css">
     <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
@@ -29,7 +29,7 @@
                             <div class="brand-logo">
                                 <img src="images/logo.svg" alt="logo">
                             </div>
-                            <h4 class="text-center">Sign Up</h4>
+                            <h4 class="text-center">'Person' Registration</h4>
                             <!-- <h4>New here?</h4> -->
                             <!-- <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6> -->
                             <form class="pt-3">
