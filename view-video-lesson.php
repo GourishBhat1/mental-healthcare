@@ -226,7 +226,7 @@
                         <div class="col-md-12 grid-margin">
                             <div class="row justify-content-center d-flex">
                                 <div class="col-12">
-                                    <h3 class="font-weight-bold text-center">Current Lesson</h3>
+                                    <h3 class="font-weight-bold text-center">Healthcare Tips</h3>
                                     <!-- <h6 class="font-weight-normal mb-0">All systems are running smoothly! You have <span class="text-primary">3 unread alerts!</span></h6> -->
                                 </div>
 
@@ -277,13 +277,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <p class="card-title text-center">All Sessions</p>
-                                    <!-- <p class="font-weight-500 text-center">Service description. Here we will see the description of the service.</p>
-                                    <br>
-                                    <p class="font-weight-700 text-center">Price: <strong>Rs. 500</strong></p>
-                                    <br>
-                                    <div class="text-center">
-                                        <but type="button" class="btn btn-primary">Buy This Service</but>
-                                    </div> -->
+
 
 
 
@@ -303,19 +297,19 @@
                                             </div>
                                             <div class="form-check">
                                                 <label class="form-check-label">
-                                                    <input type="checkbox" class="form-check-input" checked>
+                                                    <input type="checkbox" class="form-check-input">
                                                     Session 3
                                                 </label>
                                             </div>
                                             <div class="form-check">
                                                 <label class="form-check-label">
-                                                    <input type="checkbox" class="form-check-input">
+                                                    <input type="checkbox" class="form-check-input" checked>
                                                     Session 4
                                                 </label>
                                             </div>
                                             <div class="form-check">
                                                 <label class="form-check-label">
-                                                    <input type="checkbox" class="form-check-input">
+                                                    <input type="checkbox" class="form-check-input" checked>
                                                     Session 5
                                                 </label>
                                             </div>
@@ -334,25 +328,15 @@
 
                                         </div>
                                     </div>
-                                    <!-- <div class="d-flex flex-wrap mb-5">
-                                        <div class="mr-5 mt-3">
-                                            <p class="text-muted">Order value</p>
-                                            <h3 class="text-primary fs-30 font-weight-medium">12.3k</h3>
-                                        </div>
-                                        <div class="mr-5 mt-3">
-                                            <p class="text-muted">Orders</p>
-                                            <h3 class="text-primary fs-30 font-weight-medium">14k</h3>
-                                        </div>
-                                        <div class="mr-5 mt-3">
-                                            <p class="text-muted">Users</p>
-                                            <h3 class="text-primary fs-30 font-weight-medium">71.56%</h3>
-                                        </div>
-                                        <div class="mt-3">
-                                            <p class="text-muted">Downloads</p>
-                                            <h3 class="text-primary fs-30 font-weight-medium">34040</h3>
-                                        </div>
-                                    </div> -->
-                                    <!-- <canvas id="order-chart"></canvas> -->
+
+                                    <br>
+                                    <p class="card-title text-center">Missed Sessions</p>
+                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Session 3</strong></a></p>
+                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Session 6</strong></a></p>
+                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Session 7</strong></a></p>
+                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Session 8</strong></a></p>
+                                    <br>
+
                                 </div>
                             </div>
                         </div>
@@ -362,6 +346,36 @@
 
 
                     </div>
+
+
+
+
+                    <!-- <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-12 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="card-title text-center">Missed Sessions</p>
+                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Healthcare Tips: </strong> Session 5</a></p>
+                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Healthcare Tips: </strong> Session 6</a></p>
+                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Meditation Tips: </strong> Session 3</a></p>
+                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Meditation Tips: </strong> Session 7</a></p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3"></div>
+                    </div> -->
+
+
+
+
+
+
+
+
+
+
 
                 </div>
                 <!-- content-wrapper ends -->

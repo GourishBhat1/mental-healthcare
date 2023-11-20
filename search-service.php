@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Home | Skydash Admin</title>
+    <title>Search Service | Skydash Admin</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/feather/feather.css">
     <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
@@ -20,6 +20,13 @@
     <link rel="stylesheet" href="css/vertical-layout-light/style.css">
     <!-- endinject -->
     <link rel="shortcut icon" href="images/favicon.png" />
+
+
+    <style>
+        .myDiv {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -226,11 +233,11 @@
                         <div class="col-md-12 grid-margin">
                             <div class="row justify-content-center d-flex">
                                 <div class="col-12 mb-4 mb-xl-0">
-                                    <h3 class="font-weight-bold text-center">Self Development</h3>
+                                    <h3 class="font-weight-bold text-center">Search Service</h3>
                                     <!-- <h6 class="font-weight-normal mb-0">All systems are running smoothly! You have <span class="text-primary">3 unread alerts!</span></h6> -->
                                 </div>
 
-                                <div class="card">
+                                <!-- <div class="card">
                                     <div class="card-body">
                                         <div class="form-group mb-0">
                                             <div class=" input-group">
@@ -241,9 +248,185 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div> -->
+
+
+
+
+                                <div class="card col-12">
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="myselection">Service Group Name</label>
+                                                <select class="form-control" id="myselection">
+                                                    <option selected disabled>Select Service Group Name</option>
+                                                    <option value="psycho">Psychologist</option>
+                                                    <option value="psychia">Psychiatrist</option>
+                                                    <option value="yoga">Yoga Therapist</option>
+                                                    <option value="wellness">Wellness Coach</option>
+                                                </select>
+                                            </div>
+                                            <!-- <br>
+                                            <div class="form-group">
+                                                <label for="exampleSelectGender">Service Name</label>
+                                                <select class="form-control" id="exampleSelectGender">
+                                                    <option>Dr. John</option>
+                                                    <option>Dr. Strange</option>
+                                                    <option>Dr. Stone</option>
+                                                    <option>Dr. Jane</option>
+                                                </select>
+                                            </div> -->
+                                            <br>
+                                            <div id="showpsycho" class="form-group myDiv">
+                                                <label for="exampleSelectGender">Service Name</label>
+                                                <ul class="list-group ">
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Psycho1
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Psycho2
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Psycho3
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Psycho4
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+
+                                            <div id="showpsychia" class="form-group myDiv">
+                                                <label for="exampleSelectGender">Service Name</label>
+                                                <ul class="list-group ">
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Psychia1
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Psychia2
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Psychia3
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Psychia4
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                </ul>
+
+
+
+
+                                            </div>
+
+                                            <div id="showyoga" class="form-group myDiv">
+                                                <label for="exampleSelectGender">Service Name</label>
+
+
+                                                <ul class="list-group ">
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Yoga1
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Yoga2
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Yoga3
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Yoga4
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                </ul>
+
+
+                                            </div>
+
+                                            <div id="showwellness" class="form-group myDiv">
+                                                <label for="exampleSelectGender">Service Name</label>
+
+
+                                                <ul class="list-group ">
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Wellness1
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Wellness2
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Wellness3
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Wellness4
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+
+                                        </form>
+                                    </div>
                                 </div>
 
-                                <div class="col-12 col-xl-12">
+
+                                <!-- <div class="col-12 mb-4 mb-xl-0">
+                                    <h3 class="font-weight-bold text-center">My Buys</h3>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-12 col-lg-8 grid-margin transparent">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <a href="search-service.php" type="button" class="btn btn-primary btn-sm rounded">Buy Service</a>
+                                        </div>
+                                        <br>
+                                        <ul class="list-group">
+                                            <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                Healthcare Tips
+                                                <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Go To</a>
+                                            </li>
+                                            <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                Meditation Tips
+                                                <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Go To</a>
+                                            </li>
+                                            <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                Home Remedies
+                                                <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Go To</a>
+                                            </li>
+                                            <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                Healthcare 101
+                                                <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Go To</a>
+                                            </li>
+                                        </ul>
+                                        <br>
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div> -->
+
+
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <a href="buy-service.php" type="button" class="btn btn-primary rounded">Go To Cart</a>
+                                </div>
+
+
+
+
+
+                                <!-- <div class="col-12 col-xl-12">
                                     <div class="">
 
                                         <div class="col-sm-12 col-xs-12">
@@ -256,56 +439,28 @@
                                                     <select class="rounded-pill">
                                                         <option>&nbsp;&nbsp;Free&nbsp;&nbsp;</option>
                                                         <option>&nbsp;&nbsp;Paid&nbsp;&nbsp;</option>
-                                                        <!-- <option>Category3</option>
-                                                        <option>Category4</option> -->
                                                     </select>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <!-- <div class="dropdown flex-md-grow-1 flex-xl-grow-0">Price:
-                                            <button class="btn btn-sm btn-light bg-white dropdown-toggle" type="button" id="dropdownMenuDate2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                                <i class="mdi mdi-calendar"></i> Free
-                                            </button>
-                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuDate2">
-                                                <a class="dropdown-item" href="#">Paid</a>
-                                                <a class="dropdown-item" href="#">March - June</a>
-                                                <a class="dropdown-item" href="#">June - August</a>
-                                                <a class="dropdown-item" href="#">August - November</a>
-                                            </div>
-                                        </div> -->
                                     </div>
-                                </div>
+                                </div> -->
+
+
+
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="col-12 mb-4 mb-xl-0">
+                    <!-- <div class="col-12 mb-4 mb-xl-0">
                         <h3 class="font-weight-bold text-center">My Selected Services</h3>
 
-                    </div>
+                    </div> -->
 
 
-                    <div class="row">
-                        <!-- <div class="col-md-6 grid-margin stretch-card">
-                            <div class="card tale-bg">
-                                <div class="card-people mt-auto">
-                                    <img src="images/dashboard/people.svg" alt="people">
-                                    <div class="weather-info">
-                                        <div class="d-flex">
-                                            <div>
-                                                <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2>
-                                            </div>
-                                            <div class="ml-2">
-                                                <h4 class="location font-weight-normal">Bangalore</h4>
-                                                <h6 class="font-weight-normal">India</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+                    <!-- <div class="row">
                         <div class="col-12 grid-margin transparent">
                             <div class="row">
                                 <div class="col-md-6 mb-4 stretch-card transparent">
@@ -347,48 +502,8 @@
                                     </a>
                                 </div>
                             </div>
-                            <!-- <div class="row">
-                                <div class="col-md-6 mb-4 stretch-card transparent">
-                                    <div class="card card-tale">
-                                        <div class="card-body">
-                                            <p class="mb-4">Today’s Bookings</p>
-                                            <p class="fs-30 mb-2">4006</p>
-                                            <p>10.00% (30 days)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-4 stretch-card transparent">
-                                    <div class="card card-dark-blue">
-                                        <div class="card-body">
-                                            <p class="mb-4">Total Bookings</p>
-                                            <p class="fs-30 mb-2">61344</p>
-                                            <p>22.00% (30 days)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
-                                    <div class="card card-light-blue">
-                                        <div class="card-body">
-                                            <p class="mb-4">Number of Meetings</p>
-                                            <p class="fs-30 mb-2">34040</p>
-                                            <p>2.00% (30 days)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 stretch-card transparent">
-                                    <div class="card card-light-danger">
-                                        <div class="card-body">
-                                            <p class="mb-4">Number of Clients</p>
-                                            <p class="fs-30 mb-2">47033</p>
-                                            <p>0.22% (30 days)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- <div class="row">
                         <div class="col-md-6 grid-margin stretch-card">
@@ -1041,6 +1156,22 @@
     <script src="js/dashboard.js"></script>
     <script src="js/Chart.roundedBarCharts.js"></script>
     <!-- End custom js for this page-->
+
+
+
+    <!-- jQuery for hide and show  -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#myselection').on('change', function() {
+                var demovalue = $(this).val();
+                $("div.myDiv").hide();
+                $("#show" + demovalue).show();
+            });
+        });
+    </script>
 </body>
 
 </html>

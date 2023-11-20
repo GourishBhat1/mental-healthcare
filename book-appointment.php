@@ -20,6 +20,12 @@
     <link rel="stylesheet" href="css/vertical-layout-light/style.css">
     <!-- endinject -->
     <link rel="shortcut icon" href="images/favicon.png" />
+
+    <style>
+        .myDiv {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -233,6 +239,167 @@
 
 
 
+
+
+
+                                <div class="card col-12">
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="myselection">Provider Group</label>
+                                                <select class="form-control" id="myselection">
+                                                    <option selected disabled>Select Provider Group</option>
+                                                    <option value="psycho">Psychologist</option>
+                                                    <option value="psychia">Psychiatrist</option>
+                                                    <option value="yoga">Yoga Therapist</option>
+                                                    <option value="wellness">Wellness Coach</option>
+                                                </select>
+                                            </div>
+                                            <!-- <br>
+                                            <div class="form-group">
+                                                <label for="exampleSelectGender">Service Name</label>
+                                                <select class="form-control" id="exampleSelectGender">
+                                                    <option>Dr. John</option>
+                                                    <option>Dr. Strange</option>
+                                                    <option>Dr. Stone</option>
+                                                    <option>Dr. Jane</option>
+                                                </select>
+                                            </div> -->
+                                            <br>
+                                            <div id="showpsycho" class="form-group myDiv">
+                                                <label for="exampleSelectGender">Provider Name</label>
+                                                <ul class="list-group ">
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Psycho1
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Psycho2
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Psycho3
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Psycho4
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+
+                                            <div id="showpsychia" class="form-group myDiv">
+                                                <label for="exampleSelectGender">Provider Name</label>
+                                                <ul class="list-group ">
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Psychia1
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Psychia2
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Psychia3
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Psychia4
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                </ul>
+
+
+
+
+                                            </div>
+
+                                            <div id="showyoga" class="form-group myDiv">
+                                                <label for="exampleSelectGender">Provider Name</label>
+
+
+                                                <ul class="list-group ">
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Yoga1
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Yoga2
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Yoga3
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Yoga4
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                </ul>
+
+
+                                            </div>
+
+                                            <div id="showwellness" class="form-group myDiv">
+                                                <label for="exampleSelectGender">Provider Name</label>
+
+
+                                                <ul class="list-group ">
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Wellness1
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Wellness2
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Wellness3
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
+                                                        Dr. Wellness4
+                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+
+
+
+                                            <div class="card-body">
+                                                <!-- <p class="card-title text-center">Dr. Strange</p>
+                                                <p class="font-weight-500">Consultation Service for mental illnesses.</p>
+                                                <br>
+                                                <p class="font-weight-500"><strong>Service Provider Type:</strong> Psychologist</p>
+                                                <br> -->
+                                                <div class="form-group">
+                                                    <label class="form-check-label text-muted">
+                                                        Select Appointment Date
+                                                    </label>
+                                                    <input type="date" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Select Appointment Date">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-check-label text-muted">
+                                                        Select Appointment Time
+                                                    </label>
+                                                    <input type="time" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Select Appointment Time">
+                                                </div>
+                                                <p class="font-weight-700 text-center">Fee: <strong>Rs. 500</strong></p>
+                                                <br>
+                                                <div class="text-center">
+                                                    <a href="my-page.php" type="button" class="btn btn-primary">Make Payment</a>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+
+
+
+
                             </div>
                         </div>
                     </div>
@@ -246,8 +413,7 @@
 
 
 
-                    <div class="row">
-
+                    <!-- <div class="row">
                         <div class="col-lg-3"></div>
                         <div class="col-lg-6 grid-margin stretch-card">
                             <div class="card">
@@ -276,32 +442,11 @@
                                     <div class="text-center">
                                         <a href="join-meeting.php" type="button" class="btn btn-primary">Make Payment</a>
                                     </div>
-                                    <!-- <div class="d-flex flex-wrap mb-5">
-                                        <div class="mr-5 mt-3">
-                                            <p class="text-muted">Order value</p>
-                                            <h3 class="text-primary fs-30 font-weight-medium">12.3k</h3>
-                                        </div>
-                                        <div class="mr-5 mt-3">
-                                            <p class="text-muted">Orders</p>
-                                            <h3 class="text-primary fs-30 font-weight-medium">14k</h3>
-                                        </div>
-                                        <div class="mr-5 mt-3">
-                                            <p class="text-muted">Users</p>
-                                            <h3 class="text-primary fs-30 font-weight-medium">71.56%</h3>
-                                        </div>
-                                        <div class="mt-3">
-                                            <p class="text-muted">Downloads</p>
-                                            <h3 class="text-primary fs-30 font-weight-medium">34040</h3>
-                                        </div>
-                                    </div> -->
-                                    <!-- <canvas id="order-chart"></canvas> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3"></div>
-
-
-                    </div>
+                    </div> -->
 
                 </div>
                 <!-- content-wrapper ends -->
@@ -344,6 +489,22 @@
     <script src="js/dashboard.js"></script>
     <script src="js/Chart.roundedBarCharts.js"></script>
     <!-- End custom js for this page-->
+
+
+
+    <!-- jQuery for hide and show  -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#myselection').on('change', function() {
+                var demovalue = $(this).val();
+                $("div.myDiv").hide();
+                $("#show" + demovalue).show();
+            });
+        });
+    </script>
 </body>
 
 </html>

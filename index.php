@@ -44,7 +44,7 @@
                                     <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
                                 </div>
                                 <div class="mt-3">
-                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="home.php">SIGN IN</a>
+                                    <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="my-page.php">SIGN IN</a>
                                 </div>
                                 <br>
                                 <div class="my-2 d-flex justify-content-center align-items-center">
