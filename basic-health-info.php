@@ -30,16 +30,9 @@
                                 <img src="images/logo.svg" alt="logo">
                             </div>
                             <h4 class="text-center">Basic Health Info</h4>
-                            <!-- <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6> -->
+
                             <form class="pt-3">
-                                <!-- <div class="mb-4">
-                                    <div class="form-check">
-                                        <label class="form-check-label text-muted">
-                                            <input type="checkbox" class="form-check-input">
-                                            I am above 18 years
-                                        </label>
-                                    </div>
-                                </div> -->
+
                                 <div class="form-group">
                                     <label class="form-check-label text-muted">
                                         Do you have any allergies?
@@ -129,90 +122,7 @@
                                         <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Provide details here">
                                     </div>
                                 </div>
-                                <!-- <div class="mb-4">
-                                    <div class="form-check">
-                                        <label class="form-check-label text-muted">
-                                            <input type="checkbox" class="form-check-input">
-                                            I accept the terms & conditions
-                                        </label>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="form-group">
-                                    <input type="number" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Professional Registration Number">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Professional Qualification 1">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Professional Qualification 2">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Designation">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Role in the Organisation">
-                                </div> -->
 
-                                <!-- <div class="form-group">
-                                    <label class="form-check-label text-muted">
-                                        Date Of Birth
-                                    </label>
-                                    <input type="date" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Date Of Birth">
-                                </div>
-                                <div class="form-group">
-                                    <select class="form-control form-control-lg" id="exampleFormControlSelect2">
-                                        <option selected disabled>Select Gender</option>
-                                        <option>Male</option>
-                                        <option>Female</option>
-                                        <option>Other</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <input type="number" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Mobile Number">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Email">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Address">
-                                </div>
-                                <div class="form-group">
-                                    <input type="number" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Pincode">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="District">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="State">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Country">
-                                </div> -->
-
-                                <!-- <div class="form-group">
-                                    <select class="form-control form-control-lg" id="exampleFormControlSelect2">
-                                        <option>Country</option>
-                                        <option>United States of America</option>
-                                        <option>United Kingdom</option>
-                                        <option>India</option>
-                                        <option>Germany</option>
-                                        <option>Argentina</option>
-                                    </select>
-                                </div> -->
-                                <!-- <div class="form-group">
-                                    <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Create Password">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Confirm Password">
-                                </div> -->
-                                <!-- <div class="mb-4">
-                                    <div class="form-check">
-                                        <label class="form-check-label text-muted">
-                                            <input type="checkbox" class="form-check-input">
-                                            Check this If you will be needing bulk assessment
-                                        </label>
-                                    </div>
-                                </div> -->
                                 <div class="mt-3">
                                     <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="index.php">SUBMIT</a>
                                 </div>

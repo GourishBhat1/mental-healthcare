@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Search Service</title>
+    <title>Home | Skydash Admin</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/feather/feather.css">
     <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
@@ -20,13 +20,6 @@
     <link rel="stylesheet" href="css/vertical-layout-light/style.css">
     <!-- endinject -->
     <link rel="shortcut icon" href="images/favicon.png" />
-
-
-    <style>
-        .myDiv {
-            display: none;
-        }
-    </style>
 </head>
 
 <body>
@@ -233,147 +226,9 @@
                         <div class="col-md-12 grid-margin">
                             <div class="row justify-content-center d-flex">
                                 <div class="col-12 mb-4 mb-xl-0">
-                                    <h3 class="font-weight-bold text-center">Search Service</h3>
+                                    <h3 class="font-weight-bold text-center">Assessment Feedback</h3>
+
                                 </div>
-
-
-
-
-
-
-                                <div class="card col-12">
-                                    <div class="card-body">
-                                        <form>
-                                            <div class="form-group">
-                                                <label for="myselection">Service Group Name</label>
-                                                <select class="form-control" id="myselection">
-                                                    <option selected disabled>Select Service Group Name</option>
-                                                    <option value="psycho">Psychologist</option>
-                                                    <option value="psychia">Psychiatrist</option>
-                                                    <option value="yoga">Yoga Therapist</option>
-                                                    <option value="wellness">Wellness Coach</option>
-                                                </select>
-                                            </div>
-
-                                            <br>
-                                            <div id="showpsycho" class="form-group myDiv">
-                                                <label for="exampleSelectGender">Service Name</label>
-                                                <ul class="list-group ">
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Psycho1
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Psycho2
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Psycho3
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Psycho4
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-
-                                            <div id="showpsychia" class="form-group myDiv">
-                                                <label for="exampleSelectGender">Service Name</label>
-                                                <ul class="list-group ">
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Psychia1
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Psychia2
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Psychia3
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Psychia4
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                </ul>
-
-
-
-
-                                            </div>
-
-                                            <div id="showyoga" class="form-group myDiv">
-                                                <label for="exampleSelectGender">Service Name</label>
-
-
-                                                <ul class="list-group ">
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Yoga1
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Yoga2
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Yoga3
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Yoga4
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                </ul>
-
-
-                                            </div>
-
-                                            <div id="showwellness" class="form-group myDiv">
-                                                <label for="exampleSelectGender">Service Name</label>
-
-
-                                                <ul class="list-group ">
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Wellness1
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Wellness2
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Wellness3
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                    <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
-                                                        Wellness4
-                                                        <a href="#" class="rounded badge badge-primary badge-pill py-2 px-3">Add To Cart</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-
-                                        </form>
-                                    </div>
-                                </div>
-
-
-
-
-
-                                <div class="d-flex justify-content-center align-items-center">
-                                    <a href="buy-service.php" type="button" class="btn btn-primary">Go To Cart</a>
-                                </div>
-
-
-
-
-
-
-
 
 
 
@@ -382,10 +237,63 @@
                     </div>
 
 
-                    <br>
+
+                    <div class="col-12 mb-4 mb-xl-0">
+                        <h3 class="font-weight-bold text-center">Assessment History</h3>
+
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body p-0 m-2">
+                                    <h4 class="card-title">Scores Out Of 10</h4>
+                                    <canvas id="myChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3"></div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="card-body col-lg-6">
+                            <div class="form-group text-center">
+                                <label class="form-check-label ">
+                                    Score of your assessment done on 12-11-23 14:15 is as follows:
+                                </label>
+                                <input type="number" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Score" value="8" readonly>
+                            </div>
+                            <div class="form-group text-center">
+                                <label class="form-check-label">
+                                    Based on your score, we recommend as follows:
+                                </label>
+                                <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Recommendations" value="Mental health tips course" readonly>
+                            </div>
+                        </div>
+                        <div class="col-lg-3"></div>
+                    </div>
+
+
+
+
+
+
+
+
+
                     <div class="d-flex justify-content-center align-items-center">
                         <a href="my-page.php" type="button" class="btn btn-primary">Back to My Page</a>
                     </div>
+
+                    <br>
+
+
 
 
 
@@ -435,19 +343,46 @@
 
 
 
-    <!-- jQuery for hide and show  -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Adding Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <script>
-        $(document).ready(function() {
-            $('#myselection').on('change', function() {
-                var demovalue = $(this).val();
-                $("div.myDiv").hide();
-                $("#show" + demovalue).show();
-            });
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Q1', 'Q2', 'Q3', 'Q4'],
+                datasets: [{
+                    label: 'Score out of 10',
+                    data: [5, 7, 2, 9],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: 'Score'
+                },
+                // scales: {
+                //     y: {
+                //         beginAtZero: false
+                //     }
+                // }
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            min: 2,
+                            max: 10,
+                            stepSize: 2
+                        }
+                    }
+                }
+            }
         });
     </script>
+
 </body>
 
 </html>

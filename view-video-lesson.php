@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Buy Service | Skydash Admin</title>
+    <title>Current Session</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/feather/feather.css">
     <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
@@ -227,7 +227,7 @@
                             <div class="row justify-content-center d-flex">
                                 <div class="col-12">
                                     <h3 class="font-weight-bold text-center">Healthcare Tips</h3>
-                                    <!-- <h6 class="font-weight-normal mb-0">All systems are running smoothly! You have <span class="text-primary">3 unread alerts!</span></h6> -->
+
                                 </div>
 
 
@@ -237,11 +237,7 @@
                         </div>
                     </div>
 
-                    <!-- 
-                    <div class="col-12 mb-4 mb-xl-0">
-                        <h3 class="font-weight-bold text-center">My Selected Services</h3>
 
-                    </div> -->
 
 
                     <div class="row">
@@ -253,17 +249,7 @@
                                         <source src="content/videos/teaching-online-class.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
-                                    <!-- <div class="weather-info">
-                                        <div class="d-flex">
-                                            <div>
-                                                <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2>
-                                            </div>
-                                            <div class="ml-2">
-                                                <h4 class="location font-weight-normal">Bangalore</h4>
-                                                <h6 class="font-weight-normal">India</h6>
-                                            </div>
-                                        </div>
-                                    </div> -->
+
                                 </div>
                             </div>
                         </div>
@@ -347,25 +333,11 @@
 
                     </div>
 
+                    <br>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="my-page.php" type="button" class="btn btn-primary">Back to My Page</a>
+                    </div>
 
-
-
-                    <!-- <div class="row">
-                        <div class="col-lg-3"></div>
-                        <div class="col-12 grid-margin stretch-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="card-title text-center">Missed Sessions</p>
-                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Healthcare Tips: </strong> Session 5</a></p>
-                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Healthcare Tips: </strong> Session 6</a></p>
-                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Meditation Tips: </strong> Session 3</a></p>
-                                    <p class="font-weight-500 text-center"><a href="view-video-lesson.php"><strong>Meditation Tips: </strong> Session 7</a></p>
-                                    <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3"></div>
-                    </div> -->
 
 
 

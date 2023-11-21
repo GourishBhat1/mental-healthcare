@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Buy Service | Skydash Admin</title>
+    <title>My Selected Services</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/feather/feather.css">
     <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
@@ -227,7 +227,7 @@
                             <div class="row justify-content-center d-flex">
                                 <div class="col-12">
                                     <h3 class="font-weight-bold text-center">My Selected Services</h3>
-                                    <!-- <h6 class="font-weight-normal mb-0">All systems are running smoothly! You have <span class="text-primary">3 unread alerts!</span></h6> -->
+
                                 </div>
 
 
@@ -242,10 +242,7 @@
                     <div class="row">
                         <div class="col-lg-2"></div>
                         <div class="col-12 col-lg-8 grid-margin transparent">
-                            <!-- <div class="d-flex justify-content-center align-items-center">
-                                <button type="button" class="btn btn-primary btn-sm rounded">Book Appointment</button>
-                            </div>
-                            <br> -->
+
                             <ul class="list-group">
                                 <li class="border border-primary list-group-item d-flex justify-content-between align-items-center">
                                     Healthcare Tips
@@ -272,48 +269,14 @@
                         <a href="view-video-lesson.php" type="button" class="btn btn-primary">Go To Payment</a>
                     </div>
 
-                    <!-- 
-                    <div class="col-12 mb-4 mb-xl-0">
-                        <h3 class="font-weight-bold text-center">My Selected Services</h3>
 
-                    </div> -->
-
-
-                    <!-- <div class="row">
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-6 grid-margin stretch-card">
-                            <div class="card tale-bg">
-                                <div class="card-people pt-0">
-                                    <img src="content/images/doctor-and-patient.jpg" alt="people">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3"></div>
-                    </div> -->
-
-                    <!-- <div class="row">
-
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-6 grid-margin stretch-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="card-title text-center">Healthcare Tips</p>
-                                    <p class="font-weight-500 text-center">Service description. Here we will see the description of the service.</p>
-                                    <br>
-                                    <p class="font-weight-700 text-center">Price: <strong>Rs. 500</strong></p>
-                                    <br>
-                                    <div class="text-center">
-                                        <a href="view-video-lesson.php" type="button" class="btn btn-primary">Buy This Service</a>
-                                    </div>
-                              
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3"></div>
+                    <br>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="my-page.php" type="button" class="btn btn-primary">Back to My Page</a>
+                    </div>
 
 
-                    </div> -->
+
 
                 </div>
                 <!-- content-wrapper ends -->

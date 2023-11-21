@@ -30,8 +30,7 @@
                                 <img src="images/logo.svg" alt="logo">
                             </div>
                             <h4 class="text-center">'Person' Registration</h4>
-                            <!-- <h4>New here?</h4> -->
-                            <!-- <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6> -->
+
                             <form class="pt-3">
                                 <div class="mb-4">
                                     <div class="form-check">
@@ -90,16 +89,7 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Country">
                                 </div>
-                                <!-- <div class="form-group">
-                                    <select class="form-control form-control-lg" id="exampleFormControlSelect2">
-                                        <option>Country</option>
-                                        <option>United States of America</option>
-                                        <option>United Kingdom</option>
-                                        <option>India</option>
-                                        <option>Germany</option>
-                                        <option>Argentina</option>
-                                    </select>
-                                </div> -->
+
                                 <div class="form-group">
                                     <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Create Password">
                                 </div>

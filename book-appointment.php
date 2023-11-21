@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Buy Service | Skydash Admin</title>
+    <title>Book Appointment</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/feather/feather.css">
     <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
@@ -233,7 +233,7 @@
                             <div class="row justify-content-center d-flex">
                                 <div class="col-12">
                                     <h3 class="font-weight-bold text-center">Book Appointment</h3>
-                                    <!-- <h6 class="font-weight-normal mb-0">All systems are running smoothly! You have <span class="text-primary">3 unread alerts!</span></h6> -->
+
                                 </div>
 
 
@@ -255,16 +255,7 @@
                                                     <option value="wellness">Wellness Coach</option>
                                                 </select>
                                             </div>
-                                            <!-- <br>
-                                            <div class="form-group">
-                                                <label for="exampleSelectGender">Service Name</label>
-                                                <select class="form-control" id="exampleSelectGender">
-                                                    <option>Dr. John</option>
-                                                    <option>Dr. Strange</option>
-                                                    <option>Dr. Stone</option>
-                                                    <option>Dr. Jane</option>
-                                                </select>
-                                            </div> -->
+
                                             <br>
                                             <div id="showpsycho" class="form-group myDiv">
                                                 <label for="exampleSelectGender">Provider Name</label>
@@ -369,11 +360,7 @@
 
 
                                             <div class="card-body">
-                                                <!-- <p class="card-title text-center">Dr. Strange</p>
-                                                <p class="font-weight-500">Consultation Service for mental illnesses.</p>
-                                                <br>
-                                                <p class="font-weight-500"><strong>Service Provider Type:</strong> Psychologist</p>
-                                                <br> -->
+
                                                 <div class="form-group">
                                                     <label class="form-check-label text-muted">
                                                         Select Appointment Date
@@ -404,49 +391,17 @@
                         </div>
                     </div>
 
-                    <!-- 
-                    <div class="col-12 mb-4 mb-xl-0">
-                        <h3 class="font-weight-bold text-center">My Selected Services</h3>
-
-                    </div> -->
 
 
+                    <br>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="my-page.php" type="button" class="btn btn-primary">Back to My Page</a>
+                    </div>
 
 
-                    <!-- <div class="row">
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-6 grid-margin stretch-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="card-title text-center">Dr. Strange</p>
-                                    <p class="font-weight-500">Consultation Service for mental illnesses.</p>
-                                    <br>
-                                    <p class="font-weight-500"><strong>Service Provider Type:</strong> Psychologist</p>
-                                    <br>
-                                    <form action="">
-                                        <div class="form-group">
-                                            <label class="form-check-label text-muted">
-                                                Select Appointment Date
-                                            </label>
-                                            <input type="date" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Select Appointment Date">
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="form-check-label text-muted">
-                                                Select Appointment Time
-                                            </label>
-                                            <input type="time" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Select Appointment Time">
-                                        </div>
-                                    </form>
-                                    <p class="font-weight-700 text-center">Fee: <strong>Rs. 500</strong></p>
-                                    <br>
-                                    <div class="text-center">
-                                        <a href="join-meeting.php" type="button" class="btn btn-primary">Make Payment</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3"></div>
-                    </div> -->
+
+
+
 
                 </div>
                 <!-- content-wrapper ends -->
