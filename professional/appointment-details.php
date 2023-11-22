@@ -63,7 +63,7 @@
             <div class="form-group">
               <div class="text-center">
                 <label class="form-check-label text-muted mx-auto" for="meeting_link">
-                  Meeting Link
+                  Enter Meeting Link
                 </label>
                 <div class="input-group mb-3">
                   <input type="text" class="form-control" placeholder="Enter Meeting Link">
