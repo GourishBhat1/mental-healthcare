@@ -42,7 +42,7 @@
                                 </div>
                                 <div class="mb-4">
                                     <div class="form-check">
-                                        <label class="form-check-label text-muted">
+                                        <label class="form-check-label text-muted" id="termsLabel">
                                             <input type="checkbox" class="form-check-input">
                                             I accept the terms & conditions
                                         </label>
@@ -132,6 +132,22 @@
     <script src="js/settings.js"></script>
     <script src="js/todolist.js"></script>
     <!-- endinject -->
+
+
+    <!-- Additional JS -->
+
+    <script>
+        document.getElementById('termsLabel').addEventListener('click', function(event) {
+            // Check if the clicked element is the label text
+            if (event.target.tagName.toLowerCase() !== 'input') {
+                // Redirect to the new page
+                // window.location.href = 'https://google.com';
+
+                // Open the URL in a new tab
+                window.open('https://google.com', '_blank');
+            }
+        });
+    </script>
 </body>
 
 </html>
