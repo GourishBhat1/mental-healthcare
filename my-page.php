@@ -319,7 +319,7 @@
                     </div>
 
                     <div class="d-flex justify-content-center align-items-center">
-                        <button type="button" class="btn btn-primary">Voice Sampling</button>
+                        <a href="self-assessment-1.php" type="button" class="btn btn-primary">Voice Sampling</a>
                     </div>
 
                     <br>
