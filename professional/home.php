@@ -93,7 +93,7 @@
                                 </div>
                             </div>
                             <div class="text-center mt-5">
-                                <a href="professional/home.php" class="btn btn-primary">Bulk Assessment</a>
+                                <a href="professional/bulk-import.php" class="btn btn-primary">Bulk Assessment</a>
                             </div>
                         </div>
                     </div>

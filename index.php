@@ -37,7 +37,7 @@
 
                             <form class="pt-3">
                                 <div class="form-group">
-                                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username">
+                                    <input type="tel" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Mobile Number">
                                 </div>
                                 <div class="form-group">
                                     <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
